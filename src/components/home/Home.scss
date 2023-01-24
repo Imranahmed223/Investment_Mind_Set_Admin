@@ -1,0 +1,25 @@
+.dash {
+  margin-left: 5%;
+}
+.home {
+  width: 75%;
+  margin-left: 20%;
+  padding: 20px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 20px;
+
+  &-widget {
+    display: flex;
+    margin: 20px;
+  }
+}
+@media (max-width: 750px) {
+    .home {
+      &-widget {
+    flex-direction: column;
+      }
+
+    }
+      
+}
